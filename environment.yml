@@ -1,0 +1,15 @@
+name: Biomaterials-ML-clean
+
+channels:
+  - conda-forge
+
+dependencies:
+  - python=3.11
+  - rdkit
+  - jupyter
+  - numpy
+  - pandas
+  - scipy
+  - scikit-learn
+  - matplotlib
+  - openpyxl
