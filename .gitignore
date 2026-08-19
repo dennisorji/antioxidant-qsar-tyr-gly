@@ -1,0 +1,21 @@
+# Jupyter temporary files
+.ipynb_checkpoints/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Environment / OS files
+.DS_Store
+Thumbs.db
+
+# External source dataset - retained locally, not redistributed
+data/raw/DPPH_30min_Dataset.xlsx
+
+# Generated source-derived datasets
+data/processed/dpph_model_ready_dataset.csv
+data/processed/dpph_non_strict_assay_time_records.csv
+data/processed/dpph_strict_30min_qc.csv
+
+# Generated molecular fingerprint matrix
+data/processed/morgan_fingerprints_2048.npz
