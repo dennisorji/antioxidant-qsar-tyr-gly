@@ -204,5 +204,5 @@ The study therefore emphasizes:
 
 ## Author
 
-**Orji Dennis Obinna**  
+**Dennis Obinna Orji**  
 Industrial Chemistry
