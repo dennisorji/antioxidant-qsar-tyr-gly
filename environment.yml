@@ -1,4 +1,4 @@
-name: Biomaterials-ML-clean
+name: antioxidant-qsar-tyr-gly
 
 channels:
   - conda-forge
