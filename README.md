@@ -1,4 +1,4 @@
-# Structure–Activity Modeling of Sulfonamide–Tyrosine–Glycine Peptide Hybrids for Antioxidant Discovery
+# Reliable Machine Learning for DPPH Antioxidant QSAR: Scaffold- and Study-Aware Validation with an Out-of-Domain Sulfonamide–Tyr–Gly Case Study
 
 A cheminformatics and machine-learning study investigating molecular determinants of DPPH radical-scavenging activity and evaluating experimentally synthesized sulfonamide–Tyr–Gly derivatives within a broader antioxidant chemical space.
 
@@ -230,8 +230,8 @@ The two experimentally investigated sulfonamide–Tyr–Gly derivatives were eva
 
 | Compound | Reported pIC50 | Predicted pIC50 | Maximum Tanimoto Similarity | Inside AD |
 | -------- | -------------: | --------------: | --------------------------: | --------- |
-| 50       |          2.850 |           3.857 |                       0.364 | No        |
-| 51       |          2.793 |           3.899 |                       0.333 | No        |
+| 50       |          2.850 |           3.857 |                       0.364 | No |
+| 51       |          2.793 |           3.899 |                       0.333 | No |
 
 Neither compound possessed a Bemis–Murcko scaffold represented in the external modeling dataset.
 
@@ -278,7 +278,7 @@ antioxidant-qsar-tyr-gly/
 │       └── tyr_gly_case_study_standardized.csv
 │
 ├── notebooks/
-│   └── 01_dpph_qsar_analysis_REVISED.ipynb
+│   └── 01_dpph_qsar_analysis.ipynb
 │
 ├── figures/
 │   └── validation, prediction and interpretation figures
@@ -299,7 +299,7 @@ antioxidant-qsar-tyr-gly/
 The main computational workflow is contained in:
 
 ```text
-notebooks/01_dpph_qsar_analysis_REVISED.ipynb
+notebooks/01_dpph_qsar_analysis.ipynb
 ```
 
 The notebook performs:
@@ -368,7 +368,7 @@ jupyter notebook
 Then open:
 
 ```text
-notebooks/01_dpph_qsar_analysis_REVISED.ipynb
+notebooks/01_dpph_qsar_analysis.ipynb
 ```
 
 ---
@@ -413,7 +413,7 @@ jupyter notebook
 ### 6. Open the main notebook
 
 ```text
-notebooks/01_dpph_qsar_analysis_REVISED.ipynb
+notebooks/01_dpph_qsar_analysis.ipynb
 ```
 
 ### 7. Run the complete workflow
